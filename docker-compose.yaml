@@ -3,7 +3,7 @@ version: '3'
 services:
   pokedex-mysql:
     image: mysql:5.7
-    container_name: pokedex-mysql
+    container_name: borja-pokedex-mysql
     restart: always
     ports:
       - 3376:3306
