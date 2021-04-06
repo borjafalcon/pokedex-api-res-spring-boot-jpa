@@ -24,7 +24,7 @@ services:
     depends_on:
       - pokedex-mysql
     ports:
-      - 8080:8080
+      - 8090:8090
     environment:
       #- "SPRING_PROFILES_ACTIVE=default"
       #- SPRING_DATASOURCE_URL=jdbc:mysql://pokedex-mysql:3306/test
