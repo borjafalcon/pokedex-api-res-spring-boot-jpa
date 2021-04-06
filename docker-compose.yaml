@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  pokedex-mysql:
+  pokedex-borja:
     image: mysql:5.7
     container_name: pokedex-mysql
     restart: always
