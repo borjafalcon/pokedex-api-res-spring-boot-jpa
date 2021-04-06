@@ -14,7 +14,7 @@ services:
       - MYSQL_PASSWORD=root
       #- MYSQL_ROOT_HOST= '%'
   pokedex:
-    container_name: pokedex-api-rest
+    container_name: borja-pokedex-api-rest
     restart: always
     image: pepesan/pokedex-microservice:latest
     #build: .
